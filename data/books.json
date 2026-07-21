@@ -1,0 +1,110 @@
+[
+  {
+    "id": "the-midnight-library",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "Between life and death stands a library filled with the lives we might have lived. Nora Seed explores those possibilities and discovers what makes a life worth choosing.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg"
+  },
+  {
+    "id": "the-hobbit",
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "description": "Bilbo Baggins leaves his quiet home for an unexpected journey involving dwarves, a dragon, treasure, and the courage he never knew he had.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg"
+  },
+  {
+    "id": "the-alchemist",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A young shepherd follows a recurring dream across the desert and learns about purpose, sacrifice, and listening to the language of the world.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
+  },
+  {
+    "id": "project-hail-mary",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "description": "A lone astronaut wakes with no memory and must solve an impossible scientific mystery before humanity runs out of time.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg"
+  },
+  {
+    "id": "clean-code",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A practical guide to writing readable, maintainable software through disciplined naming, functions, testing, and thoughtful refactoring.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+  },
+  {
+    "id": "eloquent-javascript",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to JavaScript that combines language fundamentals, browser programming, and hands-on projects.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg"
+  },
+  {
+    "id": "you-dont-know-js-yet",
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "description": "A focused exploration of JavaScript's core mechanisms, helping developers understand scope, closures, objects, and the language model in depth.",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781098124045-L.jpg"
+  },
+  {
+    "id": "artificial-intelligence-modern-approach",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell & Peter Norvig",
+    "description": "A comprehensive introduction to intelligent agents, search, learning, reasoning, robotics, and the foundations of modern artificial intelligence.",
+    "category": "Tech",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780134610993-L.jpg"
+  },
+  {
+    "id": "a-brief-history-of-time",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "An accessible journey through cosmology, black holes, time, and the enduring search for a unified understanding of the universe.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+  },
+  {
+    "id": "cosmos",
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "A sweeping account of the universe, scientific discovery, and humanity's place in a vast and ancient cosmos.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780345539434-L.jpg"
+  },
+  {
+    "id": "the-gene",
+    "title": "The Gene",
+    "author": "Siddhartha Mukherjee",
+    "description": "A history of genetics that connects scientific breakthroughs with the personal, ethical, and social questions surrounding heredity.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781476733524-L.jpg"
+  },
+  {
+    "id": "the-body",
+    "title": "The Body",
+    "author": "Bill Bryson",
+    "description": "A lively tour of the human body, explaining how its systems work, fail, heal, and continue to surprise medical science.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780385539302-L.jpg"
+  }
+]
