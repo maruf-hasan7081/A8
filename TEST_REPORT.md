@@ -4,10 +4,13 @@ The final JavaScript version was re-audited locally with Node.js 22 and npm 10.
 
 ## Passed commands
 
+A clean dependency installation and production build were tested with the normal npm workflow:
+
 ```text
-npm run verify:data -> passed
-npm run lint        -> passed
-npm run build       -> passed
+npm install          -> 396 packages installed
+npm run verify:data  -> passed
+npm run lint         -> passed
+npm run build        -> passed
 npm audit --omit=dev -> 0 vulnerabilities
 ```
 

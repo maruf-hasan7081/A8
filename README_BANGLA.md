@@ -10,11 +10,23 @@ cd "আপনার-ফোল্ডার-পাথ\leaf-and-lore"
 
 ## ২. প্যাকেজ ইনস্টল করুন
 
-```powershell
+CMD বা PowerShell—দুই জায়গাতেই নিচের standard command ব্যবহার করুন:
+
+```cmd
 npm install
 ```
 
+`npm ci` দেওয়ার প্রয়োজন নেই।
+
 ## ৩. Environment file বানান
+
+CMD-তে:
+
+```cmd
+copy .env.example .env.local
+```
+
+PowerShell-এ:
 
 ```powershell
 Copy-Item .env.example .env.local
@@ -48,11 +60,13 @@ Browser-এ খুলুন:
 http://localhost:3000
 ```
 
-## ৬. Final check
+## ৬. Production build ও final check
 
-```powershell
+```cmd
 npm run lint
 npm run build
 ```
+
+Build সফল হলে শেষে route list দেখাবে। Production build চালাতে `npm run build`-ই যথেষ্ট।
 
 `run-dev.bat` ডাবল-ক্লিক করেও install ও run করা যাবে। তবে authentication কাজ করার জন্য `.env.local` ঠিকভাবে পূরণ করতে হবে।

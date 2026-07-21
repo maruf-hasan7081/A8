@@ -82,6 +82,12 @@ Copy the example file:
 cp .env.example .env.local
 ```
 
+On Windows Command Prompt:
+
+```cmd
+copy .env.example .env.local
+```
+
 On Windows PowerShell:
 
 ```powershell
