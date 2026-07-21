@@ -26,14 +26,15 @@ Leaf & Lore is a responsive online library built for the **Category A8 (Mango)**
 - Borrow confirmation toast
 - Private profile page showing available user information
 - Profile update route for name and image using `authClient.updateUser()`
-- Optimistic route protection through Next.js 16 `proxy.ts`, plus full server-session validation
+- Optimistic route protection through Next.js 16 `proxy.js`, plus full server-session validation
 - Error, loading, and not-found states
 - Mobile, tablet, and desktop layouts
 
 ## Tech stack
 
 - Next.js 16 (App Router)
-- React 19 + TypeScript
+- React 19 + JavaScript
+- JavaScript-only source (`.js` and `.jsx`); no TypeScript configuration
 - Tailwind CSS 4
 - daisyUI 5
 - Better Auth
@@ -124,7 +125,6 @@ Open `http://localhost:3000`.
 ## Validation commands
 
 ```bash
-npm run typecheck
 npm run lint
 npm run build
 ```

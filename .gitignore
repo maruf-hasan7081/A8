@@ -20,8 +20,6 @@
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
 
 # operating system / editors
 .DS_Store

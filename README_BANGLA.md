@@ -51,7 +51,6 @@ http://localhost:3000
 ## ৬. Final check
 
 ```powershell
-npm run typecheck
 npm run lint
 npm run build
 ```
