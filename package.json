@@ -1,0 +1,35 @@
+{
+  "name": "leaf-and-lore",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@better-auth/mongo-adapter": "1.6.23",
+    "better-auth": "1.6.23",
+    "lucide-react": "1.25.0",
+    "mongodb": "7.5.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-hot-toast": "2.6.0",
+    "swiper": "14.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "daisyui": "5.7.0",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  },
+  "browserslist": "> 1%"
+}
