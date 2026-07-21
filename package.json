@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "check": "npm run lint && npm run build",
+    "verify:data": "node scripts/verify-project.mjs"
   },
   "dependencies": {
     "@better-auth/mongo-adapter": "1.6.23",
@@ -26,5 +28,8 @@
     "eslint-config-next": "16.2.10",
     "tailwindcss": "4.3.3"
   },
-  "browserslist": "> 1%"
+  "browserslist": "> 1%",
+  "overrides": {
+    "postcss": "8.5.21"
+  }
 }

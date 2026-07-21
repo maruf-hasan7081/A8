@@ -125,8 +125,10 @@ Open `http://localhost:3000`.
 ## Validation commands
 
 ```bash
+npm run verify:data
 npm run lint
 npm run build
+npm audit --omit=dev
 ```
 
 ## Deploy to Vercel
@@ -169,3 +171,4 @@ git log --oneline
 - Replace the placeholder GitHub and live URLs before submission.
 - MongoDB and Google OAuth credentials are intentionally excluded from source control.
 - Do not commit `.env.local`.
+- Before submission, replace the placeholder GitHub and live URLs and test email login, Google login, profile update, and logout against the deployed MongoDB-backed application.
