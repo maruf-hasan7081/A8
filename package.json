@@ -1,11 +1,35 @@
 {
-  "name": "leaf-and-lore-root",
+  "name": "leaf-and-lore",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cd leaf-and-lore && npm run dev",
-    "build": "cd leaf-and-lore && npm run build",
-    "start": "cd leaf-and-lore && npm run start",
-    "lint": "cd leaf-and-lore && npm run lint",
-    "check": "cd leaf-and-lore && npm run check"
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint .",
+    "check": "npm run lint && npm run build",
+    "verify:data": "node scripts/verify-project.mjs"
+  },
+  "dependencies": {
+    "@better-auth/mongo-adapter": "1.6.23",
+    "better-auth": "1.6.23",
+    "lucide-react": "1.25.0",
+    "mongodb": "7.5.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-hot-toast": "2.6.0",
+    "swiper": "14.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "daisyui": "5.7.0",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "4.3.3"
+  },
+  "browserslist": "> 1%",
+  "overrides": {
+    "postcss": "8.5.21"
   }
 }
