@@ -4,8 +4,8 @@ Leaf & Lore is a responsive online library built for the **Category A8 (Mango)**
 
 ## Project links
 
-- **Live URL:** `https://your-project-name.vercel.app` *(replace after deployment)*
-- **GitHub repository:** `https://github.com/your-username/leaf-and-lore` *(replace after pushing)*
+- **Live URL:** `(https://leafandlore.vercel.app/)`
+- **GitHub repository:** `(https://github.com/maruf-hasan7081/A8)` 
 
 ## Key features
 
@@ -116,8 +116,8 @@ npx auth@latest secret
 Create an OAuth 2.0 **Web application** in Google Cloud Console and add these Authorized redirect URIs:
 
 ```text
-http://localhost:3000/api/auth/callback/google
-https://your-project-name.vercel.app/api/auth/callback/google
+https://leafandlore.vercel.app/api/auth/callback/google
+https:/(https://leafandlore.vercel.app/).app/api/auth/callback/google
 ```
 
 ### 5. Start the development server
