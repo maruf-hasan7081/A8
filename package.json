@@ -1,0 +1,11 @@
+{
+  "name": "leaf-and-lore-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd leaf-and-lore && npm run dev",
+    "build": "cd leaf-and-lore && npm run build",
+    "start": "cd leaf-and-lore && npm run start",
+    "lint": "cd leaf-and-lore && npm run lint",
+    "check": "cd leaf-and-lore && npm run check"
+  }
+}
